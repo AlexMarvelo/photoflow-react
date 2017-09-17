@@ -1,6 +1,6 @@
 import jsonp from 'jsonp';
 
-export default function(url, params = {}) {
+export default function(url) {
   return new Promise((resolve, reject) => {
     jsonp(url, {}, (err, data) => {
       if (err) {
@@ -9,4 +9,4 @@ export default function(url, params = {}) {
       resolve(data);
     });
   });
-};
+}
