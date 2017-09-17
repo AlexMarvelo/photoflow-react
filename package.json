@@ -4,10 +4,14 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "jsonp": "^0.2.1",
+    "normalize-url": "^1.9.1"
   },
   "devDependencies": {
-    "react-scripts": "1.0.13"
+    "react-scripts": "1.0.13",
+    "eslint": "^4.6.0",
+    "eslint-plugin-react": "^7.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
